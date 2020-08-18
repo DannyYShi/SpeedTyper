@@ -1,25 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import useTypingGame from "./useTypingGame";
 
 function App() {
+  const {
+    textBoxRef,
+    handleChange,
+    text,
+    isTimeRemaining,
+    timeRemaining,
+    startGame,
+    wordCount,
+  } = useTypingGame();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <h1>How Fast Can You Type?</h1>
+      <textarea
+        ref={textBoxRef}
+        onChange={handleChange}
+        value={text}
+        disabled={!isTimeRemaining}
+      />
+      <h4>Time Remaining: {timeRemaining}</h4>
+      <button onClick={startGame} disabled={isTimeRemaining}>
+        Start
+      </button>
+      <h1>Word Count: {wordCount}</h1>
+    </React.Fragment>
   );
 }
 
