@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SpeedTyper/static/css/main.6af8db08.chunk.css",
+    "main.js": "/SpeedTyper/static/js/main.78080248.chunk.js",
+    "main.js.map": "/SpeedTyper/static/js/main.78080248.chunk.js.map",
+    "runtime-main.js": "/SpeedTyper/static/js/runtime-main.3e3f0e91.js",
+    "runtime-main.js.map": "/SpeedTyper/static/js/runtime-main.3e3f0e91.js.map",
+    "static/js/2.e54ca885.chunk.js": "/SpeedTyper/static/js/2.e54ca885.chunk.js",
+    "static/js/2.e54ca885.chunk.js.map": "/SpeedTyper/static/js/2.e54ca885.chunk.js.map",
+    "index.html": "/SpeedTyper/index.html",
+    "precache-manifest.56c1f6a1efd72a39303556a789437b89.js": "/SpeedTyper/precache-manifest.56c1f6a1efd72a39303556a789437b89.js",
+    "service-worker.js": "/SpeedTyper/service-worker.js",
+    "static/css/main.6af8db08.chunk.css.map": "/SpeedTyper/static/css/main.6af8db08.chunk.css.map",
+    "static/js/2.e54ca885.chunk.js.LICENSE.txt": "/SpeedTyper/static/js/2.e54ca885.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e3f0e91.js",
+    "static/js/2.e54ca885.chunk.js",
+    "static/css/main.6af8db08.chunk.css",
+    "static/js/main.78080248.chunk.js"
+  ]
+}
